@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise_6</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <label for="firstNumber">First number : </label><input type="text" id="firstNumber" name="firstNumber"/><br/>
+            <label for="secondNumber">Last number : </label><input type="text" id="secondNumber" name="secondNumber"/><br/>
+            <button onclick="rest()" id="validate" name="validate">Validate</button>
+        </form>
+
+        <script type="text/javascript">
+        function rest(){
+            let a = document.getElementById("firstNumber").value;
+            let b = document.getElementById('secondNumber').value;
+
+            alert(a%b);
+        }
+        
+        </script>
+    </body>
+</html>
